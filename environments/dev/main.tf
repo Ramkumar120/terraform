@@ -13,6 +13,6 @@ module "ec2"{
     type = "t2.micro"
     env = "dev"
     subnetId = module.vpc.subnet_id
-    ec2_count = 2
+    ec2_count = 0
 
 }
